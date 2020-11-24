@@ -1,2 +1,2 @@
 # SoftUni-CSharp-Algorithm-Basics
-All problem solutions from the algorithm basics course in SoftUni
+All problem solutions from the algorithm fundamentals course in SoftUni
