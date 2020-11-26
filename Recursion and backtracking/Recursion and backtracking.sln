@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveArraySum", "RecursiveArraySum\RecursiveArraySum.csproj", "{839C7164-1075-4B75-8C16-9D96FE36BCC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveArraySum", "RecursiveArraySum\RecursiveArraySum.csproj", "{839C7164-1075-4B75-8C16-9D96FE36BCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveDrawing", "RecursiveDrawing\RecursiveDrawing.csproj", "{9A9D0C8E-434B-4E68-8363-C3B302B8B5D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveDrawing", "RecursiveDrawing\RecursiveDrawing.csproj", "{9A9D0C8E-434B-4E68-8363-C3B302B8B5D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{093D09E0-6CC5-4EF2-8BA8-6DDFF8D171CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{093D09E0-6CC5-4EF2-8BA8-6DDFF8D171CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingVectors", "GeneratingVectors\GeneratingVectors.csproj", "{77AE1D3B-A6F3-4409-AF27-08D09684277A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratingVectors", "GeneratingVectors\GeneratingVectors.csproj", "{77AE1D3B-A6F3-4409-AF27-08D09684277A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labyrinth", "Labyrinth\Labyrinth.csproj", "{C88764E6-D4E7-46B1-B9EE-F65506832267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labyrinth", "Labyrinth\Labyrinth.csproj", "{C88764E6-D4E7-46B1-B9EE-F65506832267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8QueensPuzzle", "8QueensPuzzle\8QueensPuzzle.csproj", "{3765B184-32FF-4ED3-9C21-CC83DC052D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{048C01B2-71BC-48E3-9452-48E8AF450E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{C88764E6-D4E7-46B1-B9EE-F65506832267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88764E6-D4E7-46B1-B9EE-F65506832267}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88764E6-D4E7-46B1-B9EE-F65506832267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3765B184-32FF-4ED3-9C21-CC83DC052D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3765B184-32FF-4ED3-9C21-CC83DC052D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3765B184-32FF-4ED3-9C21-CC83DC052D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3765B184-32FF-4ED3-9C21-CC83DC052D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048C01B2-71BC-48E3-9452-48E8AF450E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048C01B2-71BC-48E3-9452-48E8AF450E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048C01B2-71BC-48E3-9452-48E8AF450E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048C01B2-71BC-48E3-9452-48E8AF450E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

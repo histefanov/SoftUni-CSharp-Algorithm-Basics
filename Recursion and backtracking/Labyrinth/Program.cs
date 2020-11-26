@@ -62,7 +62,7 @@ namespace Labyrinth
             }
             return false;
         }
-
+         
         static bool IsExit(char[,] labyrinth, int row, int col)
         {
             return labyrinth[row, col] == 'e';
