@@ -55,6 +55,7 @@ namespace ShortestPath
                 {
                     var path = ReconstructPath(endNode);
                     Print(path);
+                    return;
                 }
 
                 foreach (var child in graph[currentNode])
