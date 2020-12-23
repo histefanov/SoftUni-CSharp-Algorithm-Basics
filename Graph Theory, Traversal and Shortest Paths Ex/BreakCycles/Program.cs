@@ -33,7 +33,7 @@ namespace BreakCycles
             foreach (var edge in edges)
             {
                 var from = edge.From;
-                var to = edge.To;
+                var to = edge.To;       
 
                 if (!graph[from].Contains(to))
                 {

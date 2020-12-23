@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreasInMatrix", "AreasInMat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyclesInGraph", "CyclesInGraph\CyclesInGraph.csproj", "{E1F9458A-93C5-4C35-B0FB-096460BAC497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salaries", "Salaries\Salaries.csproj", "{E2645C2E-C29A-4B54-AD63-301383BEA60B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salaries", "Salaries\Salaries.csproj", "{E2645C2E-C29A-4B54-AD63-301383BEA60B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakCycles", "BreakCycles\BreakCycles.csproj", "{DECB06A2-24CF-497E-962E-53ECA10DB558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakCycles", "BreakCycles\BreakCycles.csproj", "{DECB06A2-24CF-497E-962E-53ECA10DB558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadReconstruction", "RoadReconstruction\RoadReconstruction.csproj", "{2404DB6D-58E5-4435-95F1-812B5E0DD978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DECB06A2-24CF-497E-962E-53ECA10DB558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECB06A2-24CF-497E-962E-53ECA10DB558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECB06A2-24CF-497E-962E-53ECA10DB558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2404DB6D-58E5-4435-95F1-812B5E0DD978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2404DB6D-58E5-4435-95F1-812B5E0DD978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2404DB6D-58E5-4435-95F1-812B5E0DD978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2404DB6D-58E5-4435-95F1-812B5E0DD978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
