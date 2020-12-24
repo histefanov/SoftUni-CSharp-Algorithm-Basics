@@ -50,7 +50,10 @@ namespace RoadReconstruction
 
             foreach (var street in importantStreets)
             {
-                Console.WriteLine($"{street.From} {street.To}");
+                var first = Math.Min(street.From, street.To);
+                var second = Math.Max(street.From, street.To);
+
+                Console.WriteLine($"{first} {second}");
             }
         }
 
