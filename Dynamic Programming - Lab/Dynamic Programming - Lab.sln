@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{EA1298F5-B40B-48E8-9D85-3F6B923D6F02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{EA1298F5-B40B-48E8-9D85-3F6B923D6F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSum", "Subset Sum\SubsetSum.csproj", "{C80290FB-CA77-4660-8BED-E06D4A02F4E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubsetSum", "Subset Sum\SubsetSum.csproj", "{C80290FB-CA77-4660-8BED-E06D4A02F4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetSumWithRepetition", "SubsetSumWithRepetition\SubsetSumWithRepetition.csproj", "{2A47A22E-AFB0-4897-AC3C-631F1EC10268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveDownRightSum", "MoveDownRightSum\MoveDownRightSum.csproj", "{B5640224-4527-4080-AD5A-35101B9FD81D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C80290FB-CA77-4660-8BED-E06D4A02F4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C80290FB-CA77-4660-8BED-E06D4A02F4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C80290FB-CA77-4660-8BED-E06D4A02F4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A47A22E-AFB0-4897-AC3C-631F1EC10268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A47A22E-AFB0-4897-AC3C-631F1EC10268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A47A22E-AFB0-4897-AC3C-631F1EC10268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A47A22E-AFB0-4897-AC3C-631F1EC10268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5640224-4527-4080-AD5A-35101B9FD81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5640224-4527-4080-AD5A-35101B9FD81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5640224-4527-4080-AD5A-35101B9FD81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5640224-4527-4080-AD5A-35101B9FD81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
