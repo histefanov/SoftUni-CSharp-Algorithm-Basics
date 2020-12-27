@@ -16,22 +16,40 @@ namespace Subset_Sum
             var targetSum = int.Parse(Console.ReadLine());
             var sums = GetAllSums(nums);
 
-            Console.WriteLine(String.Join(" ", sums));
+            if (!sums.ContainsKey(targetSum))
+            {
+                Console.WriteLine("Available numbers could not be amounted to the target sum.");
+            }
+            else
+            {
+                while (targetSum != 0)
+                {
+                    var usedNum = sums[targetSum];
+                    Console.WriteLine(usedNum);
+
+                    targetSum -= usedNum;
+                }
+            }
         }
 
-        private static HashSet<int> GetAllSums(int[] nums)
+        private static Dictionary<int, int> GetAllSums(int[] nums)
         {
-            var sums = new HashSet<int> { 0 };
+            var sums = new Dictionary<int, int> { { 0, 0 } };
 
             foreach (var num in nums)
             {
-                var newSums = new HashSet<int>();
-                foreach (var sum in sums)
-                {
-                    newSums.Add(sum + num);
-                }
+                var newSums = new Dictionary<int, int>();
 
-                sums.UnionWith(newSums);
+                var currentSums = sums.Keys.ToArray();
+                foreach (var sum in currentSums)
+                {
+                    var newSum = sum + num;
+
+                    if (!sums.ContainsKey(newSum))
+                    {
+                        sums.Add(newSum, num);
+                    }
+                }
             }
 
             return sums;
