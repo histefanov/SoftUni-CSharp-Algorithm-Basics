@@ -18,7 +18,7 @@ namespace LongestCommonSubsequence
             Console.WriteLine(result);
 
             var commonSubsequence = ExtractCommonSubsequence(lcsMatrix, str1, str2);
-            Console.WriteLine($"Longest common subsequence: {commonSubsequence}");
+            Console.WriteLine($"Longest common subsequence: [{commonSubsequence}] ({commonSubsequence.Length})");
         }
 
         private static string ExtractCommonSubsequence(int[,] lcsMatrix, string str1, string str2)
