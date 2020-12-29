@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinominalCoefficients", "Dynamic Programming - Exercise\BinominalCoefficients.csproj", "{71AF1B49-336B-4F50-98E8-613910C0E48F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinominalCoefficients", "Dynamic Programming - Exercise\BinominalCoefficients.csproj", "{71AF1B49-336B-4F50-98E8-613910C0E48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividingPresents", "DividingPresents\DividingPresents.csproj", "{AADEF62C-CC16-4C57-BCA3-8D9946121FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DividingPresents", "DividingPresents\DividingPresents.csproj", "{AADEF62C-CC16-4C57-BCA3-8D9946121FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithUnlimitedAmountOfCoins", "SumWithUnlimitedAmountOfCoins\SumWithUnlimitedAmountOfCoins.csproj", "{04749953-AD55-4D9B-9B1A-A400F16DE4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumWithLimitedAmountOfCoins", "SumWithLimitedAmountOfCoins\SumWithLimitedAmountOfCoins.csproj", "{6D2286F4-08F6-4260-BCA0-D71C7F6EB7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDifferences", "WordDifferences\WordDifferences.csproj", "{932A7BC1-9756-439C-AFFA-AB55488AA118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingCables", "ConnectingCables\ConnectingCables.csproj", "{CC2B5E64-DB3D-4DCC-B067-A0C898B4F2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumEditDistance", "MinimumEditDistance\MinimumEditDistance.csproj", "{B100910C-E63A-48B5-BCCB-1999C9E3B985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{AADEF62C-CC16-4C57-BCA3-8D9946121FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADEF62C-CC16-4C57-BCA3-8D9946121FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AADEF62C-CC16-4C57-BCA3-8D9946121FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04749953-AD55-4D9B-9B1A-A400F16DE4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04749953-AD55-4D9B-9B1A-A400F16DE4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04749953-AD55-4D9B-9B1A-A400F16DE4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04749953-AD55-4D9B-9B1A-A400F16DE4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2286F4-08F6-4260-BCA0-D71C7F6EB7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2286F4-08F6-4260-BCA0-D71C7F6EB7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2286F4-08F6-4260-BCA0-D71C7F6EB7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2286F4-08F6-4260-BCA0-D71C7F6EB7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932A7BC1-9756-439C-AFFA-AB55488AA118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932A7BC1-9756-439C-AFFA-AB55488AA118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932A7BC1-9756-439C-AFFA-AB55488AA118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932A7BC1-9756-439C-AFFA-AB55488AA118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2B5E64-DB3D-4DCC-B067-A0C898B4F2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2B5E64-DB3D-4DCC-B067-A0C898B4F2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2B5E64-DB3D-4DCC-B067-A0C898B4F2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2B5E64-DB3D-4DCC-B067-A0C898B4F2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B100910C-E63A-48B5-BCCB-1999C9E3B985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B100910C-E63A-48B5-BCCB-1999C9E3B985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B100910C-E63A-48B5-BCCB-1999C9E3B985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B100910C-E63A-48B5-BCCB-1999C9E3B985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
