@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBC", "TBC\TBC.csproj", "{FF8898FA-7D00-46C1-A75E-2E8E1FFEBD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socks", "Socks\Socks.csproj", "{9570CF51-551A-446F-9D4B-A31061D29A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFinder", "PathFinder\PathFinder.csproj", "{D40BD805-28A5-4892-9533-CD481768F362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF8898FA-7D00-46C1-A75E-2E8E1FFEBD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8898FA-7D00-46C1-A75E-2E8E1FFEBD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8898FA-7D00-46C1-A75E-2E8E1FFEBD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8898FA-7D00-46C1-A75E-2E8E1FFEBD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9570CF51-551A-446F-9D4B-A31061D29A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9570CF51-551A-446F-9D4B-A31061D29A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9570CF51-551A-446F-9D4B-A31061D29A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9570CF51-551A-446F-9D4B-A31061D29A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40BD805-28A5-4892-9533-CD481768F362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40BD805-28A5-4892-9533-CD481768F362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40BD805-28A5-4892-9533-CD481768F362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40BD805-28A5-4892-9533-CD481768F362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0A6C977-F932-4DF3-B423-71A214C6F50D}
+	EndGlobalSection
+EndGlobal
